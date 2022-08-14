@@ -13,7 +13,7 @@ authorsRouter.get('/',function(req,res){
 
     res.render('authors',{
         authors
-    });
+        });
 
     })
 })
