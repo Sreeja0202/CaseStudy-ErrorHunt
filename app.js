@@ -33,6 +33,7 @@ const app = new express();
 
 app.set("views", "./src/views");
 app.set("view engine", "ejs");
+// 
 
 app.use(cors()); //part #2 7th
 app.use(bodyParser.urlencoded({ extended: true }));
