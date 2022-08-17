@@ -1,6 +1,6 @@
 const express = require("express");
 const booksRouter = express.Router();
-const books = require("../data/books"); //part #2
+// const books = require("../data/books"); //part #2
 const bookdata = require("../model/BookModel");
 
 //router to render books page

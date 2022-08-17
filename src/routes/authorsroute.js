@@ -1,7 +1,7 @@
 
 const express = require("express");
 const authorsRouter = express.Router();
-const authors = require("../data/authors"); //part #2
+// const authors = require("../data/authors"); //part #2
 const authordata = require("../model/AuthorModel");
 
 //router to render authors page
